@@ -1,7 +1,7 @@
 {
   "name": "calculator-app",
   "version": "1.0.0",
-  "description": "Scientific calculator:\r     - Error handling;\r     - Complex math;\r     - History\r     - USE BOOTSTRAP",
+  "description": "Working Calculator",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
