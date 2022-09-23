@@ -1,0 +1,72 @@
+:root {
+    --bg: #1E1D3A;
+    --stroke-light: #535187;
+    --stroke-dark: #393687;
+    --line-dark: #3B361D;
+    --text-color: #877729;
+}
+
+body {
+    background: #1E1D3A;
+    font-family: 'Inter', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 156px;
+}
+
+.display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.display {
+    color: var(--text-color);
+    font-size: 64px;
+    margin: 0px;
+    width: 720px;
+    text-align: center;
+    border-bottom: 3px solid var(--line-dark);
+    margin-bottom: 24px;
+    min-height: 80px;
+}
+
+.previous-number {
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 0px;
+    width: 160px;
+    text-align: center;
+    border-bottom: 3px solid var(--line-dark);
+    min-height: 40px;
+}
+
+button {
+    background: none;
+    color: var(--text-color);
+    font-size: 21px;
+    border: 3px solid var(--stroke-light);
+}
+
+button:hover, 
+.special-btn:hover, 
+operation-btn:hover, 
+equals-btn:hover {
+    border: 3px solid white;
+}
+
+.special-btn {
+    border: 3px solid var(--stroke-dark);
+}
+
+.selected {
+    color: white;
+    border: 3px solid white;
+}

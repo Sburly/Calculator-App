@@ -1,0 +1,79 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 64px 64px 64px 64px 64px;
+    grid-template-rows: 64px 64px 64px 64px;
+    grid-template-areas: 
+    "seven eight nine ac del"
+    "four five six plus minus"
+    "one two three times divide"
+    "zero zero zero equals equals";
+    gap: 16px;
+}
+
+#zero {
+    grid-area: zero;
+}
+
+#one {
+    grid-area: one;
+}
+
+#two {
+    grid-area: two;
+}
+
+#three {
+    grid-area: three;
+}
+
+#four {
+    grid-area: four;
+}
+
+#five {
+    grid-area: five;
+}
+
+#six {
+    grid-area: six;
+}
+
+#seven {
+    grid-area: seven;
+}
+
+#eight {
+    grid-area: eight;
+}
+
+#nine {
+    grid-area: nine;
+}
+
+#plus {
+    grid-area: plus;
+}
+
+#minus {
+    grid-area: minus;
+}
+
+#times {
+    grid-area: times;
+}
+
+#divide {
+    grid-area: divide;
+}
+
+#equals {
+    grid-area: equals;
+}
+
+#ac {
+    grid-area: ac;
+}
+
+#del {
+    grid-area: del;
+}
